@@ -1,0 +1,185 @@
+### Step 2A
+/c/Users/Noelle
+
+
+### Step 2B
+Noelle@NAD-WindowsLaptop MINGW64 ~
+$ cd desktop
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop
+
+
+### Step 2C
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop
+$ cd unit1-git-practice
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$
+
+
+### Step 2D
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ pwd
+/c/Users/Noelle/desktop/unit1-git-practice
+
+
+### Step 2E
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+
+
+### Step 2F
+my-steps.txt
+
+### Step 2G
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cd c:/
+
+
+
+### Step 2H
+Noelle@NAD-WindowsLaptop MINGW64 /c
+$ pwd
+/c
+
+
+### Step 2I
+'$Recycle.Bin'/             Drivers/                Recovery/
+'$WINDOWS.~BT'/             DumpStack.log.tmp      'System Volume Information'/
+'$WinREAgent'/              ESD/                    Users/
+'$Windows.~WS'/             Intel/                  WCH.CN/
+ Apps/                      OneDriveTemp/           Windows/
+ CB43C40C700C               PerfLogs/               dell.sdr
+ Config.Msi/               'Program Files'/         hiberfil.sys
+ Dell/                     'Program Files (x86)'/   pagefile.sys
+'Documents and Settings'@   ProgramData/            swapfile.sys
+
+
+### Step 2J
+$ cd ~
+
+
+### Step 2K
+$ pwd
+/c/Users/Noelle
+
+Noelle@NAD-WindowsLaptop MINGW64 ~
+$ cd desktop/unit1-git-practice/
+
+
+
+### Step 3A
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mkdir veggies
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mkdir meats
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mkdir desserts
+
+
+### Step 3B
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mv desserts sweets
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+meats/  my-steps.txt  sweets/  veggies/
+
+
+### Step 3C
+$ mkdir proteins
+
+
+### Step 3D
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mv meats proteins
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  veggies/
+
+
+### Step 3E
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cd veggies
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/veggies
+$ ls
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/veggies
+$ touch carrot.txt
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/veggies
+$ touch pea.tex
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/veggies
+$ rm pea.tex
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/veggies
+$ touch pea.txt
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/veggies
+$ ls
+carrot.txt  pea.txt
+
+
+### Step 3F
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/veggies
+$ cd ..
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  veggies/
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cd sweets
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/sweets
+$ touch cookie.txt
+
+
+### Step 3G
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/sweets
+$ mv cookie.txt donut.txt
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/sweets
+$ ls
+donut.txt
+	
+
+### Step 3H
+
+
+### Step 3I
+
+
+### Step 3J
+
+
+### Step 3K
+
+
+### Step 3L
+
+
+### Step 3M
+
+
+### Step 3N
+
+
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
