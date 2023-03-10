@@ -151,31 +151,137 @@ donut.txt
 	
 
 ### Step 3H
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ touch thing.txt
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  veggies/
 
 
 ### Step 3I
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cp thing.txt tofu.txt
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  tofu.txt  veggies/
 
 
 ### Step 3J
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mv tofu.txt proteins
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  veggies/
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cd proteins
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/proteins
+$ ls
+meats/  tofu.txt
 
 
 ### Step 3K
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cp thing.txt crab.txt
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+crab.txt  my-steps.txt  proteins/  sweets/  thing.txt  veggies/
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mv crab.txt proteins/meats/
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  veggies/
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cd proteins/meats/
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice/proteins/meats
+$ ls
+crab.txt
 
 
 ### Step 3L
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ rm thing.txt
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  veggies/
 
 
 ### Step 3M
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ cp -r veggies plants
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  plants/  proteins/  sweets/  veggies/
+
 
 
 ### Step 3N
 
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ mkdir drinks
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ rm -r drinks
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ ls
+my-steps.txt  plants/  proteins/  sweets/  veggies/
 
 
 ### Step 4
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice
+$ git init
+Initialized empty Git repository in C:/Users/Noelle/Desktop/unit1-git-practice/.git/
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice (master)
+$ git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice (master)
+$ git commit -m 'first commit'
+[master (root-commit) 6a407a8] first commit
+ 8 files changed, 185 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+
 
 
 ### Step 5
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice (main)
+$ git remote add origin http://github.com/chicletn/unit1-git-practice.git
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice (main)
+$ git branch -M main
+
+Noelle@NAD-WindowsLaptop MINGW64 ~/desktop/unit1-git-practice (main)
+$ git push -u origin main
+warning: redirecting to https://github.com/chicletn/unit1-git-practice.git/
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 1.23 KiB | 314.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To http://github.com/chicletn/unit1-git-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
